@@ -1,0 +1,40 @@
+.slider-wrapper {
+  width: 800px;
+  height: 600px;
+  margin: 100px auto;
+}
+
+.current-image {
+  width: 800px;
+  height: 400px;
+}
+
+.current-image img {
+  width: 800px;
+  height: 400px;
+}
+
+.image-controler {
+  width: 800px;
+  height: 50px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper {
+  position: absolute;
+}
+
+.image-item {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.image-item img {
+  width: 100px;
+  height: 50px;
+}
